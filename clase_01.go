@@ -8,16 +8,13 @@ func main() {
 }
 
 func saludo(nombre string) {
-	var saludo string = "Hola " + nombre
+	var saludar string = "Hola " + nombre
 	if esPar(nombre) {
-		saludo = saludo + "!"
+		saludar = saludar + "!"
 	}
-	fmt.Println(saludo)
+	fmt.Println(saludar)
 }
 
 func esPar(valor string) (bool){
-	if len(valor) % 2 == 0 {
-		return true
-	}
-	return false
+	return len(valor) % 2 == 0
 }
