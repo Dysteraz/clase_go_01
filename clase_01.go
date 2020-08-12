@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	saludo("Nico")
+	saludo("Roman")
 }
 
 func saludo(nombre string) {
