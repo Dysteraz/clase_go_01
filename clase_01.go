@@ -15,6 +15,6 @@ func saludo(nombre string) {
 	fmt.Println(saludar)
 }
 
-func esPar(valor string) (bool){
-	return len(valor) % 2 == 0
+func esPar(valor string) bool {
+	return len(valor)%2 == 0
 }
