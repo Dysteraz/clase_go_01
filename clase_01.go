@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	cuantasLetrasTiene("Nico")
+	saludo("Nico")
 }
 
-func cuantasLetrasTiene(nombre string) {
+func saludo(nombre string) {
 	var saludo string = "Hola " + nombre
 	if esPar(nombre) {
 		saludo = saludo + "!"
